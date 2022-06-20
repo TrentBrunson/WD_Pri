@@ -47,12 +47,6 @@ for n, col in enumerate(df.columns):
 
 fig.tight_layout()'''
 # %%
-# This library captures most of the EDA done above
-# https://pandas-profiling.github.io/pandas-profiling/docs/master/index.html
-'''data_profile = ProfileReport(df, title="Req Pri Data Profile Report", explorative=True)
-data_profile.to_file("HiPri.html")
-data_profile.to_notebook_iframe()'''
-# %%
 # drop columns
 
 # drop rows
