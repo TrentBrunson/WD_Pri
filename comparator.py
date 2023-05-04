@@ -1,10 +1,4 @@
 #%%
-'''emulate notebooks for code testing'''
-
-
-#%%
-# import dependencies
-from glob import glob
 import os
 import glob
 import numpy as np
@@ -69,7 +63,6 @@ GOPOdf = df[['REQ Status', 'Requisition NO', 'Hiring Manager Badge', 'Hiring Man
 GOPOdf
 # %%
 # compare new file to old priorities
-# %%
 # join hiring manager to L6
 
 # add a new column
