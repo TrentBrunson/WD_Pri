@@ -35,13 +35,13 @@ df.isna().sum().sum()
 #%%
 df.nunique()
 # %%
-'''# first data visualization
+# first data visualization
 fig, axs = plt.subplots(len(df.columns), figsize = (5,20))
 for n, col in enumerate(df.columns):
     a = df[col].hist(ax=axs[n])
     a.set_title(col)
 
-fig.tight_layout()'''
+fig.tight_layout()
 # %%
 # drop columns
 
